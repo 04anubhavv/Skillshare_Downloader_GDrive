@@ -8,7 +8,7 @@ device_session_id=4acc568f-f0b3-451a-85fb-297e1d1abfce; show-like-copy=0; visito
 # or by class ID:
 # dl.download_course_by_class_id(189505397)
 
-def main():
+def main(cookie):
     temp = sys.argv[2]
     if len(temp) != 0:
         cookie = temp;
