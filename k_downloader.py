@@ -5,8 +5,6 @@ from stm import cookie
 # or by class ID:
 # dl.download_course_by_class_id(189505397)
 
-cookie
-
 def main(cookie):
     temp = sys.argv[2]
     if len(temp) != 0:
@@ -44,4 +42,4 @@ def info():
 
 if __name__ == "__main__":
     info()
-    main()
+    main(cookie)
